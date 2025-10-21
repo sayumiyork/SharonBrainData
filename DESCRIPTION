@@ -1,11 +1,15 @@
 Package: SharonBrainData
-Title: What the Package Does (One Line, Title Case)
+Title: Data package for a subset of the data from Sharon et al. (2020)
 Version: 0.0.0.9000
 Authors@R: 
-    person("First", "Last", , "first.last@example.com", role = c("aut", "cre"))
-Description: What the package does (one paragraph).
-License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
-    license
+    person("Sayumi", "York", , "syork@ndm.edu", role = c("aut", "cre"))
+Description: Contains data from Sharon et al. (2020) for the C-MOOR RNA-seq miniCURE. Only contains data from mice that were innoculated with typically developing human host mircobiomes. Data were pulled from recount3.
+License: MIT + file LICENSE
 Encoding: UTF-8
 Roxygen: list(markdown = TRUE)
 RoxygenNote: 7.3.2
+Depends: 
+    R (>= 3.5)
+LazyData: true
+Imports: 
+    tibble
