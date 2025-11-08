@@ -5,6 +5,7 @@
 #'
 #' @param x A string containing a valid Mouse Genome Informatics (MGI) ID that is found in the dataset
 #' @return A figure plotting the gene expression of filtered TD-data from the Sharon et al. (2019) dataset across the prefrontal cortex and striatum tissues.
+#' @export
 
 
 

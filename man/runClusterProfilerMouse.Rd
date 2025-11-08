@@ -11,7 +11,6 @@ runClusterProfilerMouse(x)
 }
 \value{
 The results of an over representation test - what genes are significantly up/down regulated - and their correlating KEGG categories
-runClusterProfilerMouse()
 }
 \description{
 Performs a clusterProfiler analysis on mouse data using KEGG categories from org.Mm.eg.db.

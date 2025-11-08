@@ -4,8 +4,7 @@
 #'
 #' @param x A data frame containing the results of a DESeq2 analysis
 #' @return The results of an over representation test - what genes are significantly up/down regulated - and their correlating KEGG categories
-#' runClusterProfilerMouse()
-
+#' @export
 
 runClusterProfilerMouse <- function (x) {
   ids <- bitr( x$GeneID, "ENSEMBL", "ENTREZID", "org.Mm.eg.db" )
