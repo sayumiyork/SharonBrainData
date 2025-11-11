@@ -1,8 +1,15 @@
 Package: SharonBrainData
 Title: Data package for a subset of the data from Sharon et al. (2020)
 Version: 0.0.0.9000
-Authors@R: 
-    person("Sayumi", "York", , "syork@ndm.edu", role = c("aut", "cre"))
+Authors@R: c(person(given = "Sayumi", 
+             family = "York",
+             email = "syork@ndm.edu", 
+             role = c("aut", "cre"),
+             comment = c(ORCID = "0009-0008-3264-2143")),
+      person(given = "Elizabeth",
+             family = "Humphries",
+             email = "ehumphri@fredhutch.org",
+             role = c("aut")))
 Description: Contains data from Sharon et al. (2020) for the C-MOOR RNA-seq miniCURE. Only contains data from mice that were innoculated with typically developing human host mircobiomes. Data were pulled from recount3.
 License: MIT + file LICENSE
 Encoding: UTF-8

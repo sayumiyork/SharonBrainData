@@ -9,7 +9,12 @@
 Contains data from Sharon et al. (2020) for the C-MOOR RNA-seq miniCURE. Only contains data from mice that were innoculated with typically developing human host mircobiomes. Data were pulled from recount3.
 }
 \author{
-\strong{Maintainer}: Sayumi York \email{syork@ndm.edu}
+\strong{Maintainer}: Sayumi York \email{syork@ndm.edu} (\href{https://orcid.org/0009-0008-3264-2143}{ORCID})
+
+Authors:
+\itemize{
+  \item Elizabeth Humphries \email{ehumphri@fredhutch.org}
+}
 
 }
 \keyword{internal}
