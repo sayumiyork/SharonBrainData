@@ -10,7 +10,7 @@
 
 
 plotAcrossMice <- function( x ) {
-  df <- data.frame(counts(brain)[x,], brain_metadata$bio_sample, row.names = row.names(brain_metadata))
+  df <- data.frame(counts(brain, normalized=TRUE)[x,], brain_metadata$bio_sample, row.names = row.names(brain_metadata))
   colnames(df) <- c("counts", "bio_sample")
   df$bio_sample <- fct_relevel( factor( df$bio_sample), "Striatum_TD_1_1","Striatum_TD_1_2","Striatum_TD_1_3","Striatum_TD_1_4",
                                 "Striatum_TD_2_1","Striatum_TD_2_2","Striatum_TD_2_3","Striatum_TD_2_4",
