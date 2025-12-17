@@ -12,7 +12,7 @@
 
 
 plotAcrossHostDonor<- function( x ) {
-  df <- data.frame(counts(brain)[x,], brain_metadata$host_donor_tissue, row.names = row.names(brain_metadata))
+  df <- data.frame(counts(brain, normalized=TRUE)[x,], brain_metadata$host_donor_tissue, row.names = row.names(brain_metadata))
   colnames(df) <- c("counts", "host_donor_tissue")
   df$host_donor_tissue <- fct_relevel( factor( df$host_donor_tissue), "TD_1_STR","TD_2_STR","TD_3_STR","TD_1_PFC", "TD_2_PFC", "TD_3_PFC")
   ggplot( df ) +
